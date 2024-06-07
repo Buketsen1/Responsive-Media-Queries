@@ -1,0 +1,74 @@
+body{
+  background-color: black;
+  color: white;
+}
+
+h1{
+    display: none;
+}
+
+@media (min-width:1201px){  /* Buyuk ekranlar için olan boyutta 
+                               yazı gozuksun.*/
+    .large{
+        display: block;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px ){
+    .desktop{
+        display: block;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px ){
+    .laptops{
+        display: block;
+        
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px ){
+    .tablets{
+        display: block;
+         
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px ){
+    .mobile{
+        display: block;
+    }
+}
+
+@media (min-width:1201px){
+    body{
+        background-color: white;
+        color: black;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px ){
+    body{  
+        background-color: blueviolet;   
+        
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px ){
+    body{
+        background-color: aquamarine;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px ){
+    body{
+        background-color: red;
+    }
+}
+
+
+
+
+/* Tüm cihazlar için olan boyular 
+bulunur ve buna göre ayarlamalar yapılır.
+*/
